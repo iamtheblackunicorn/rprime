@@ -39,12 +39,12 @@ Move the executable on the path `rprime/target/release/rprime` to the directory 
 Using `rprime` is quite simple:
 - Check if 27 is a prime number. `b` is for `boolean`. Returns `true` in this case.
 ```bash
-$ rprime b 27
+$ rprime i 27
 true
 ```
 - Check if 28 is a prime number. Returns `false` in this case.
 ```bash
-$ rprime b 28
+$ rprime i 28
 false
 ```
 - Get the next prime number. `n` is for `next`.

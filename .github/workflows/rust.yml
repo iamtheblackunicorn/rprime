@@ -2,7 +2,7 @@ on: [push]
 name: CI
 jobs:
   build_and_test:
-    name: rls
+    name: RPrime
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,15 +16,15 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: run
-          args: b 27
+          args: i 27
       - uses: actions-rs/cargo@v1
         with:
           command: run
-          args: b 28
+          args: i 28
       - uses: actions-rs/cargo@v1
         with:
           command: run
-          args: b lol
+          args: i lol
       - uses: actions-rs/cargo@v1
         with:
           command: run

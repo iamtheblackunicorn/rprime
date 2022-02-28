@@ -24,8 +24,4 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: run
-          args: i lol
-      - uses: actions-rs/cargo@v1
-        with:
-          command: run
           args: n 26

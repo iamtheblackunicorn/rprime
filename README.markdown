@@ -41,9 +41,9 @@ From an algorithmic point of view, ***RPrime*** is very simple. It first finds a
 ## Usage :book:
 
 Using `rprime` is quite simple:
-- Check if 27 is a prime number. `i` is short for `is_prime`. Returns `true` in this case.
+- Check if 23 is a prime number. `i` is short for `is_prime`. Returns `true` in this case.
 ```bash
-$ rprime i 27
+$ rprime i 23
 true
 ```
 - Check if 28 is a prime number. Returns `false` in this case.
@@ -54,7 +54,7 @@ false
 - Get the next prime number. `n` is short for `next`.
 ```bash
 $ rprime n 24
-27
+29
 ```
 
 ## Changelog :black_nib:

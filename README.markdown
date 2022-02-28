@@ -27,7 +27,7 @@ $ cd rprime
 ```
 - 3.) Build the source code:
 ```bash
-$ cargo build
+$ cargo build --release
 ```
 
 ## Installation :inbox_tray:

@@ -16,7 +16,7 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: run
-          args: i 27
+          args: i 23
       - uses: actions-rs/cargo@v1
         with:
           command: run
@@ -24,4 +24,4 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: run
-          args: n 26
+          args: n 24

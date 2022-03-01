@@ -77,8 +77,8 @@ use rprime::rprime::*;
 ```
 
 - Use them:
-  - `is_prime`: Returns a `true` or `false` after checking whether a number of type `i128` is a prime number.
-  - `next_prime`: Returns the next biggest prime as a number of type `i128`.
+  - `is_prime`: Returns `true` or `false` after checking whether a number of type `i128` is a prime number.
+  - `next_prime`: Returns the next biggest prime as a number of type `i128` after a number of type `i128`.
   - `number_factors`: Returns a vector of numbers of type `i128` of all factors of a number of type `i128`.
 
 ## Changelog :black_nib:

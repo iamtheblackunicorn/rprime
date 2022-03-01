@@ -2,3 +2,13 @@
 name = "rprime"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+authors = ["Alexander Abraham"]
+description= "Provides useful functions for prime numbers."
+homepage = "https://github.com/iamtheblackunicorn/rprime"
+repository = "https://github.com/iamtheblackunicorn/rprime"
+documentation = "https://github.com/iamtheblackunicorn/rprime"
+readme = "README.markdown"
+keywords = ["prime numbers", "science", "maths"]
+categories = ["command-line-utilities", "prime numbers", "science", "maths"]
+exclude = ["/.github"]

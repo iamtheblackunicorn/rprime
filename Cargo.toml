@@ -9,6 +9,6 @@ homepage = "https://github.com/iamtheblackunicorn/rprime"
 repository = "https://github.com/iamtheblackunicorn/rprime"
 documentation = "https://github.com/iamtheblackunicorn/rprime"
 readme = "README.markdown"
-keywords = ["prime numbers", "science", "maths"]
+keywords = ["science", "maths"]
 categories = ["command-line-utilities", "science", "maths"]
 exclude = ["/.github"]

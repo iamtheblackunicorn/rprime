@@ -5,23 +5,20 @@ Licensed under the MIT license.
 */
 
 use std::env;
-use std::num::ParseIntError;
+//use std::num::ParseIntError;
 use rprime::rprime::is_prime;
 use rprime::rprime::next_prime;
 
 /// Checks if a string is an integer or not.
 /// Returns a boolean to that effect.
 fn is_int(number: String) -> bool {
-    let mut _result: bool = false;
-    let conversion = || -> Result<i128, ParseIntError> {
-        let int: i128 = number.parse::<i128>().unwrap();
-        return Ok(int);
-    };
-    if let Err(_err) = conversion() {}
-    else {
-        _result = true;
+    let mut _result: Vec<bool> = Vec::new();
+    let num = number.parse::<i128>();
+    match num {
+        Ok(_value) => _result.push(true),
+        Err(_error) => _result.push(false)
     }
-    return _result;
+    return _result[0];
 }
 
 /// A small error message

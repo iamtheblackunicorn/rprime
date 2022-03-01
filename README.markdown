@@ -1,14 +1,14 @@
-# RPRIME :abacus:
+# RPRIME
 
-***Fun with prime numbers in Rust.*** :abacus:
+***Fun with prime numbers in Rust.***
 
 ![GitHub CI](https://github.com/iamtheblackunicorn/rprime/actions/workflows/rust.yml/badge.svg)
 
-## About :books:
+## About
 
 Since I've been digging into prime numbers a lot lately, I was wondering how to write a tool that lets you check whether a number is a prime number. `rprime` is that tool.
 
-## Building :hammer: :pick:
+## Building
 
 You will need the following tools installed and available:
 
@@ -30,15 +30,15 @@ $ cd rprime
 $ cargo build --release
 ```
 
-## Installation :inbox_tray:
+## Installation
 
 Move the executable on the path `rprime/target/release/rprime` to the directory where you keep your binary executables. If you are on Linux or Mac OSX, you might have to change permissions like this: `chmod a+x rprime`. If you have Rust's package manager installed, running `cargo install rprime` from a terminal window should also install ***RPrime***.
 
-## How it works :abacus:
+## How it works
 
 From an algorithmic point of view, ***RPrime*** is very simple. It first finds all factors of a given number and dumps these factors into a list. Finally, it checks whether this list's only factors are 1 and the number itself. Depending on whether this is the case a boolean to that effect is returned.
 
-## Usage :book:
+## Usage
 
 ### Command-line usage
 
@@ -81,14 +81,14 @@ use rprime::rprime::*;
   - `next_prime`: Returns the next biggest prime as a number of type `i128` after a number of type `i128`.
   - `number_factors`: Returns a vector of numbers of type `i128` of all factors of a number of type `i128`.
 
-## Changelog :black_nib:
+## Changelog
 
 ### Version 1.0
 
 - initial release
 - upload to GitHub
 
-## Note :scroll:
+## Note
 
-- *RPRIME :abacus:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- *RPRIME* by Alexander Abraham a.k.a. *"The Black Unicorn"*
 - Licensed under the MIT license.

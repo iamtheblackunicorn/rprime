@@ -10,5 +10,5 @@ repository = "https://github.com/iamtheblackunicorn/rprime"
 documentation = "https://github.com/iamtheblackunicorn/rprime"
 readme = "README.markdown"
 keywords = ["prime numbers", "science", "maths"]
-categories = ["command-line-utilities", "prime numbers", "science", "maths"]
+categories = ["command-line-utilities", "science", "maths"]
 exclude = ["/.github"]
